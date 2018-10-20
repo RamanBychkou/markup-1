@@ -177,3 +177,27 @@ li {
         top: 0;
         left: -50%;
         margin-left: 60%; }
+
+.functions {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Lato';
+  padding: 99px 0 90px 0; }
+  .functions .function-item {
+    max-width: 230px; }
+    .functions .function-item img {
+      padding-bottom: 20px; }
+    .functions .function-item h4 {
+      font-weight: 900;
+      font-size: 1em;
+      padding-bottom: 10px;
+      colot: #303030; }
+    .functions .function-item p {
+      font-weight: 300;
+      font-size: 1em;
+      color: #7e7e7e; }

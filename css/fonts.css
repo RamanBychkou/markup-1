@@ -23,6 +23,12 @@
 	src: url(../fonts/Lato-Medium.ttf)
 }
 @font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/Lato-Light.ttf)
+}
+@font-face {
 	font-family: 'MyriadPro';
 	font-style: normal;
 	font-weight: 700;
