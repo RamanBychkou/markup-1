@@ -146,3 +146,34 @@ li {
       padding: 0 8px; }
     .domain .form .item:first-child {
       font-weight: 400; }
+  .domain .priceDomain {
+    padding-top: 41pxs; }
+    .domain .priceDomain table {
+      margin: 0 auto;
+      width: 892px;
+      border: 1px solid #cbcbcb;
+      padding: 15px 30px; }
+      .domain .priceDomain table td {
+        text-align: left;
+        padding: 30px 0 30px 80px;
+        font-family: 'Lato';
+        width: 222px;
+        font-weight: 400;
+        color: #cbcbcb;
+        position: relative; }
+      .domain .priceDomain table tr td:nth-child(2)::after, .domain .priceDomain table tr td:nth-child(3)::after, .domain .priceDomain table tr td:nth-child(4)::after {
+        content: '';
+        height: 80%;
+        border-left: 1px solid #cbcbcb;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0; }
+      .domain .priceDomain table tr:last-child td::before {
+        content: '';
+        width: 68%;
+        border-top: 1px solid #cbcbcb;
+        position: absolute;
+        top: 0;
+        left: -50%;
+        margin-left: 60%; }
