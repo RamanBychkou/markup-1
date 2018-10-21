@@ -29,6 +29,12 @@
 	src: url(../fonts/Lato-Light.ttf)
 }
 @font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 600;
+	src: url(../fonts/Lato-Semibold.ttf)
+}
+@font-face {
 	font-family: 'MyriadPro';
 	font-style: normal;
 	font-weight: 700;
