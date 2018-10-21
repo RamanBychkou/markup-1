@@ -4,8 +4,13 @@
   -webkit-box-sizing: border-box;
     -webkit-box-sizing-box-sizing: border-box; }
 
+body {
+  max-width: 1600px; }
+
 header {
   height: 943px;
+  width: 100%;
+  max-width: 1600px;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -32,7 +37,7 @@ li {
     width: 100%;
     border-bottom: 1px solid #2e2f31; }
     .container .headerMenu .menu {
-      width: 65%; }
+      width: 59%; }
       .container .headerMenu .menu ul {
         display: -webkit-flex;
         display: -moz-flex;
@@ -40,11 +45,11 @@ li {
         display: -o-flex;
         display: flex; }
         .container .headerMenu .menu ul li {
-          padding: 26px 31px 26px 31px; }
+          padding: 35px 0px 32px 70px; }
           .container .headerMenu .menu ul li a {
             font-family: 'Lato';
             font-weight: 500;
-            font-size: 0.8em;
+            font-size: 1em;
             color: #fff;
             padding-bottom: 26px; }
             .container .headerMenu .menu ul li a:hover {
@@ -53,16 +58,16 @@ li {
     color: #fff;
     text-align: center;
     vertical-align: middle;
-    padding-top: 261px; }
+    padding-top: 328px; }
     .container .headText h2 {
       font-family: 'MyriadPro';
       font-weight: 700;
-      font-size: 3.5em; }
+      font-size: 4.5em; }
     .container .headText h3 {
       font-family: 'Georgia';
       font-style: italic;
       font-weight: 400;
-      font-size: 1.6em;
+      font-size: 2em;
       line-height: 1.4em;
       padding-top: 7px; }
 
@@ -74,8 +79,9 @@ li {
   display: flex; }
   .authoriz .item {
     width: 50%;
-    padding: 35px 0;
-    font-family: 'Lato'; }
+    padding: 47px 0;
+    font-family: 'Lato';
+    font-size: 1.4em; }
     .authoriz .item a {
       color: #fff; }
       .authoriz .item a:hover {
@@ -84,12 +90,13 @@ li {
     background-color: #21424a;
     font-weight: 600;
     text-align: right;
-    padding-right: 200px; }
+    padding-right: 270px;
+    width: 50.5%; }
   .authoriz .item:last-child {
     background-color: #2fac6c;
     font-weight: 700;
     text-align: left;
-    padding-left: 200px;
+    padding-left: 242px;
     position: relative; }
     .authoriz .item:last-child::before {
       content: '';
@@ -97,9 +104,9 @@ li {
       height: 100%;
       position: absolute;
       top: 0;
-      left: -10px;
+      left: -14px;
       background-color: #2fac6c;
-      transform: skewX(-10deg); }
+      transform: skewX(-14deg); }
 
 .domain {
   text-align: center;
