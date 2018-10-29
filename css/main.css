@@ -5,7 +5,8 @@
     -webkit-box-sizing-box-sizing: border-box; }
 
 body {
-  max-width: 1600px; }
+  max-width: 1600px;
+  font-family: 'Lato'; }
 
 header {
   height: 943px;
@@ -111,18 +112,18 @@ li {
 .domain {
   text-align: center;
   font-family: 'Lato';
-  padding: 90px 0; }
+  padding: 86px 0; }
   .domain .titleDomain {
-    padding-bottom: 35px; }
+    padding-bottom: 50px; }
     .domain .titleDomain h3 {
       font-weight: 900;
-      font-size: 2em;
+      font-size: 1.5em;
       color: #383737;
-      padding-bottom: 25px; }
+      padding-bottom: 20px; }
     .domain .titleDomain p {
       font-family: 'Montserrat-ExtraLight';
       font-weight: 200;
-      font-size: 1.5em;
+      font-size: 1em;
       color: #cbcbcb; }
   .domain .form {
     display: -webkit-flex;
@@ -133,24 +134,22 @@ li {
     justify-content: space-around;
     margin: 0 auto;
     max-width: 892px;
-    padding: 10px 0;
+    padding: 14px 0;
     border: 1px solid #a2a2a2;
     font-family: 'Lato'; }
     .domain .form input, .domain .form select {
       border: none; }
     .domain .form input {
-      border-right: 1px solid #a2a2a2;
-      border-left: 1px solid #a2a2a2;
       padding-left: 12px;
       color: #868686;
       width: 100%; }
     .domain .form .item:nth-child(2) {
-      width: 84%; }
-    .domain .form .item:first-child, .domain .form .item:last-child {
-      width: 8%; }
+      width: 84%;
+      border-right: 1px solid #a2a2a2;
+      border-left: 1px solid #a2a2a2; }
     .domain .form .item:first-child, .domain .form select {
       color: #cbcbcb;
-      padding: 0 8px; }
+      padding: 0 15px; }
     .domain .form .item:first-child {
       font-weight: 400; }
   .domain .priceDomain {
@@ -178,12 +177,14 @@ li {
         left: 0; }
       .domain .priceDomain table tr:last-child td::before {
         content: '';
-        width: 68%;
+        width: 91%;
         border-top: 1px solid #cbcbcb;
         position: absolute;
-        top: 0;
-        left: -50%;
-        margin-left: 60%; }
+        top: 0; }
+      .domain .priceDomain table tr:last-child td:nth-child(odd)::before {
+        left: 1px; }
+      .domain .priceDomain table tr:last-child td:nth-child(even)::before {
+        right: 1px; }
 
 .aboutUs .container {
   display: -webkit-flex;
@@ -262,19 +263,26 @@ li {
   text-align: center;
   font-family: 'Lato';
   padding: 99px 0 90px 0; }
-  .functions .function-item {
-    max-width: 230px; }
-    .functions .function-item img {
-      padding-bottom: 20px; }
-    .functions .function-item h4 {
-      font-weight: 900;
-      font-size: 1em;
-      padding-bottom: 10px;
-      colot: #303030; }
-    .functions .function-item p {
-      font-weight: 300;
-      font-size: 1em;
-      color: #7e7e7e; }
+  .functions .container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    .functions .container .function-item {
+      max-width: 230px; }
+      .functions .container .function-item img {
+        padding-bottom: 20px; }
+      .functions .container .function-item h4 {
+        font-weight: 900;
+        font-size: 1em;
+        padding-bottom: 10px;
+        colot: #303030; }
+      .functions .container .function-item p {
+        font-weight: 300;
+        font-size: 1em;
+        color: #7e7e7e; }
 
 footer {
   background-color: #2a2a2a; }
